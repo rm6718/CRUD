@@ -1,0 +1,7 @@
+com/ironyard/servlet/CreateTakeoutServlet.class
+com/ironyard/data/Takeout.class
+com/ironyard/servlet/TakeoutServlet.class
+com/ironyard/servlet/InputReaderServlet.class
+com/ironyard/services/TakeoutService.class
+com/ironyard/servlet/DeleteTakeoutServlet.class
+com/ironyard/servlet/SelectTakeoutServlet.class

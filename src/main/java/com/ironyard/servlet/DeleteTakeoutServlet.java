@@ -33,7 +33,7 @@ public class DeleteTakeoutServlet extends HttpServlet {
             }
         }
 
-        RequestDispatcher dispatcher = this.getServletContext().getRequestDispatcher(".createTakeout.jsp");
+        RequestDispatcher dispatcher = this.getServletContext().getRequestDispatcher("/createTakeout.jsp");
         dispatcher.forward(request,response);
 
     }

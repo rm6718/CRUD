@@ -21,7 +21,7 @@ public class CreateTakeoutServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         String name = req.getParameter("name");
-        String cuisineType = req.getParameter("cuisinetype");
+        String cuisineType = req.getParameter("cuisineType");
         String distance = req.getParameter("distance");
         String id = req.getParameter("id");
 
@@ -31,7 +31,7 @@ public class CreateTakeoutServlet extends HttpServlet {
 
 
         if(takeoutList == null) {
-            takeoutList = new ArrayList<>();
+            takeoutList = new ArrayList<Takeout>();
         }
 
         Takeout foundTakeout = null;

@@ -15,7 +15,7 @@ public class TakeoutServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        RequestDispatcher dispatcher = this.getServletContext().getRequestDispatcher("/takeoutlist.jsp");
+        RequestDispatcher dispatcher = this.getServletContext().getRequestDispatcher("/createTakeout.jsp");
         dispatcher.forward(request,response);
 
     }
